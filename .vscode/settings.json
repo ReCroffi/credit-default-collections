@@ -5,5 +5,33 @@
         "*.csv": "duckdb.dataFileViewer",
         "*.tsv": "duckdb.dataFileViewer",
         "*.xlsx": "duckdb.dataFileViewer"
-    }
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.tabCompletion": "on",
+    "editor.inlineSuggest.enabled": true,
+    "editor.parameterHints.enabled": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.suggest.showWords": true,
+    "editor.suggest.showSnippets": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "jupyter.askForKernelRestart": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "github.copilot.editor.enableAutoCompletions": true
 }
