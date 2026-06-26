@@ -1,0 +1,12 @@
+# dados brutos (não versionar binários pesados)
+data/*.zip
+data/*.xls
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+
+# sistema
+.DS_Store
